@@ -7,6 +7,8 @@ Pour l'utiliser :
 - Glisser-déposer directement le fichier dans OBS/Streamlabs ou l'intégrer via une source "Navigateur"
 Le cadre est optimisé pour un affichage en 1920x1080, mais il suffit de redimensionner la source pour les résolutions inférieures.
 
-- Pour modifier la taille, le contour, la couleur du cadre, il suffit d'ouvrir le fichier "cadre.css" dans un bloc-notes puis de modifier les variables des valeurs dans l'en-tête du fichier puis de le sauvegarder. N'oubliez pas de "rafraichir" la source navigateur sur OBS/Streamlabs ensuite.
+- Pour modifier la taille, le contour, la couleur du cadre, il suffit d'ouvrir le fichier "cadre.css" dans un bloc-notes puis de modifier les variables des valeurs dans l'en-tête du fichier puis de le sauvegarder. Ne pas oublier de "rafraichir" la source navigateur sur OBS/Streamlabs ensuite.
+
+- Glisser la source vidéo (webcam, capture d'écran...) sous le cadre animé puis le redimensionner. Mettre les deux sources dans un même dossier pour les déplacer simultanément.
 
 ![cadre](https://user-images.githubusercontent.com/91347360/170236084-fc1d4973-4808-4996-bc87-d7ac1bb699b3.gif)
