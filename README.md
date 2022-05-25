@@ -1,6 +1,6 @@
 # cadre-gradient-animation
 Un cadre animé en HTML/CSS avec un dégradé simple. Très utile pour habiller rapidement et simplement une capture de fenêtre ou une webcam sur OBS ou Streamlabs
-Je suis débutan en HTML/CSS/JS, donc le code est encore perfectible, mais autant mettre à disposition ces éléments à tous.
+Je débute en HTML/CSS/JS, donc le code est encore perfectible, mais autant mettre à disposition ces éléments à tous.
 
 Pour l'utiliser : 
 
