@@ -2,6 +2,10 @@
 Un cadre animé en HTML/CSS avec un dégradé simple. Très utile pour habiller rapidement et simplement une capture de fenêtre ou une webcam sur OBS ou Streamlabs
 Je débute en HTML/CSS/JS, donc le code est encore perfectible, mais autant mettre à disposition ces éléments à tous.
 
+Pour télécharger les fichiers, sélectionnez "code" puis "Download Zip".
+
+![Sans titre](https://user-images.githubusercontent.com/91347360/204094734-a6e8c120-68c8-44e5-8cd8-124624642ac9.png)
+
 Pour l'utiliser : 
 
 - Glisser-déposer directement le fichier HTML dans OBS/Streamlabs ou l'intégrer via une source "Navigateur"
