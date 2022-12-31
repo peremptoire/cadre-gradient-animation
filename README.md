@@ -10,10 +10,10 @@ Pour l'utiliser :
 
 - Glisser-déposer directement le fichier HTML dans OBS/Streamlabs ou l'intégrer via une source "Navigateur"
 Le cadre est optimisé pour un affichage en 1920x1080, mais il suffit de redimensionner la source pour les résolutions inférieures.
-![background-gradient-animation](https://user-images.githubusercontent.com/91347360/210135143-586f57b2-ab84-4b80-aa0e-c13fcfea7632.png)
+![cadre-gradient-installation](https://user-images.githubusercontent.com/91347360/210135163-e4105f62-795b-4d4e-ae35-4ca529377c14.png)
 
 - Pour modifier la taille, le contour, la couleur du cadre, il suffit d'ouvrir le fichier "cadre.css" dans un bloc-notes puis de modifier les variables des valeurs dans l'en-tête du fichier puis de le sauvegarder. Ne pas oublier de "rafraichir" la source navigateur sur OBS/Streamlabs ensuite.
 
 - Glisser la source vidéo (webcam, capture d'écran...) sous le cadre animé puis le redimensionner. Mettre les deux sources dans un même dossier pour les déplacer simultanément.
 
-![background-gradient-animation](https://user-images.githubusercontent.com/91347360/210135144-bf513227-7587-456a-b6d4-7f48e14dd2e1.gif)
+![cadre-gradient-animation](https://user-images.githubusercontent.com/91347360/210135166-f0e80797-efd3-475f-9bd2-c0692bc59acd.gif)
