@@ -1,0 +1,49 @@
+:root {
+  /* Taille conseillées : Paysage : 1280x720 // Portrait : 720x1280 // Carré : 720x720 */
+  --largeur: 1280px;
+  --hauteur: 720px;
+  /* Epaisseur de la bordure*/
+  --bordersize: 3px;
+  /* Vitesse de l'animation : plus la valeur est petite, plus l'animation est rapide */
+  --vitesseanimation: 15s;
+  /* Couleurs : Pour une cadre de couleur uniforme, renseignez deux fois la même couleur. 
+  Quelques exemples de dégradés sur https://webgradients.com */
+  --couleur1: #fa709a;
+  --couleur2: #fee140;
+}
+
+/* Ne modifiez rien en dessous sauf si vous savez ce que vous faites !
+Si vous avez envie d'experimenter, faites une copie de sauvegarde des fichiers avant !*/
+
+.cadre-gradient {
+  width: var(--largeur);
+  height: var(--hauteur);
+  margin: 0 auto;
+  background: linear-gradient(270deg, var(--couleur1), var(--couleur2));
+  background-size: 600% 600%;
+  animation: animationGradient var(--vitesseanimation) ease infinite;
+  clip-path: polygon(
+    0% 0%,
+    0% 100%,
+    var(--bordersize) 100%,
+    var(--bordersize) var(--bordersize),
+    calc(100% - var(--bordersize)) var(--bordersize),
+    calc(100% - var(--bordersize)) calc(100% - var(--bordersize)),
+    0% calc(100% - var(--bordersize)),
+    var(--bordersize) 100%,
+    100% 100%,
+    100% 0%
+  );
+}
+
+@keyframes animationGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
